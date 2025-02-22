@@ -1,0 +1,28 @@
+.container
+{
+    color: white;
+   display: flex; 
+   gap: 30px;
+   height: 30vh;
+   justify-content: space-between;
+}
+p{text-align: center;}
+.item1
+{
+    flex-basis: 200px;
+    background-color: blue;
+    height: 400px;
+}
+.item2
+{
+    flex-basis: 200px;
+    background-color: blue;
+    flex-shrink: 0;
+
+}
+.item3
+{
+     flex-basis: 400px;
+     background-color: blue;
+     flex-shrink: 0;
+}
